@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style type="text/css">
-			h1 {
-			color:red;
-			}
-		</style>
 		<title> Mi Primera Pagina </title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">	
+		<style  type="text/css">
+		h1{
+			color:green;
+			background: yellow;
+		}
+		</style>
 		<meta charset="UTF-8">
 		<meta name="keywords" content="UPSE, Universidad Peninsula, Santa Elena, Ecuador">
 		<meta name="description" content="Universidad de la Peninsula de Santa Elena">
 		<meta name="author" content="Gina y Laura">
-			</head>
+
+		
+		
+	</head>
 	<body>
 		<header>
-			<a href= "index.html">
+			<a href= "index.html" id="logo">
 			<h1>Universidad de la Peninsula de Santa Elena UPSE</h1>
 			<h2>Curso de Programacion Web </h2>
 		</a>
@@ -26,20 +32,25 @@
 			</ul>
 
 		</header>
-		<section>
-			<ul>
-				<li>
-					<img src="img/logo.jpg" alt="Logo Upse">
-					<img src="img/upse.jpg" alt="Upse Panoramica">
-					<img src="img/principal.jpg" alt="Upse">
-				</li>
-			</ul>
-		 </section>
-		<footer>
-			<a href= "https://facebook.com/joyliss.pererito">
-			<img src="img/descarga" alt="facebook">
-			</a>
-			<p>&copy; 2016 Gina y Laura </p>
-		</footer>
-</body>
+			<div id="wrapper">
+				<section>
+					<ul>
+						<li>
+							<img src="img/logo.jpg" alt="Logo Upse">
+							<img src="img/upse.jpg" alt="Upse Panoramica">
+							<img src="img/principal.jpg" alt="Upse">
+						</li>
+					</ul>
+				 </section>
+				<footer>
+					<a href= "https://facebook.com/">
+					<img src="img/facebook-1.jpg" alt="facebook logo">
+					</a>
+					<a href= "https://twitter.com/">
+					<img src="img/twitt.png" alt="Twitter logo">
+					</a>
+					<p>&copy; 2016 Gina y Laura </p>
+				</footer>
+			</div>
+	</body>
 </html>
