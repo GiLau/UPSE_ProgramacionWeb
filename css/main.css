@@ -118,3 +118,13 @@ footer{
 	height: 30px;
 	margin: 0 5px;
 }
+
+
+
+/* estilos para acerca de */
+.profile-photo{
+	display: block;
+	max-width: 800px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
