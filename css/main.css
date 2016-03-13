@@ -3,13 +3,14 @@
 a {
 	text-decoration: none;
 	color: #b21818;
+
 }
 
 #wrapper{
-	max-width: 940px;
+	max-width: 1300px;
 	margin: 0 auto;
-	padding: 0 5%;
-	background:#fff;
+	padding:5%;
+	background: #154863;
 }
 
 #logo{ text-align: center;
@@ -22,6 +23,12 @@ img{ max-width: 100%;}
 
 
 /*heading */
+header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
 
 header{
 	background: #a967d5;
@@ -43,17 +50,21 @@ h1{
 
 
 /*navigation*/
-
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
 nav{
-	background: #fffc73;
+	background: #a967d5;
 }
 
 nav a, nav a:visited {
-	color:#000;
+	color:#fffc73;
 }
 
 nav a.selected {
-	color: #983fd5;
+	color: #478526;
 }
 
 nav a:hover{
@@ -69,9 +80,9 @@ list-style: none;
 #galeria li{
 	float: left;
 	width: 45%;
-	margin: 5.5%;
-	background-color: #45b445;
-	color: #bdc3c7;
+	margin: 2.5%;
+	background-color: #4e487e;
+	color: #359741;
 	}
 	
 #galeria li a p{
@@ -79,5 +90,13 @@ list-style: none;
 	padding: 5%;
 	font-size: 0.75em;
 	color: #147752;
+
 }
-	
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
