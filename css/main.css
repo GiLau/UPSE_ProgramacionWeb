@@ -124,7 +124,38 @@ footer{
 /* estilos para acerca de */
 .profile-photo{
 	display: block;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-style: 0.9em; 
+}
+
+.contact-info a {
+	display: inline-block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:  0 0 0 40px;
+	margin: 0 0 50px;
+}
+.contact-info li.phone a {
+	background-image: url('../img/telefono.png')
+
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/email.png')
+}
+
+
+.contact-info li.instagram a {
+	background-image: url('../img/instagram.png')
+
+}
+
