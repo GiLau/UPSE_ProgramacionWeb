@@ -4,10 +4,11 @@
 		<title> Mi Primera Pagina </title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">	
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:700italic' rel='stylesheet' type='text/css'>
 		<style  type="text/css">
 		h1{
-			color:green;
-			background: yellow;
+			color:blue;
+			background:#983fd5;
 		}
 		</style>
 		<meta charset="UTF-8">
@@ -24,24 +25,30 @@
 			<h1>Universidad de la Peninsula de Santa Elena UPSE</h1>
 			<h2>Curso de Programacion Web </h2>
 		</a>
+
+
 		<nav>
 			<ul>
-				<li><a href="index.html">Galeria</a></li>
-				<li><a href="about.thml">Acerca</a></li>
-				<li><a href="contact.html">Contacto</a></li>
+				<li><a href="index.html" class="selected">Galeria</a></li>
+				<li><a href="about.thml"class="selected">Acerca</a></li>
+				<li><a href="contact.html"class="selected">Contacto</a></li>
 			</ul>
 
 		</header>
 			<div id="wrapper">
 				<section>
-					<ul>
+					<ul id="galeria">
 						<li>
 							<img src="img/logo.jpg" alt="Logo Upse">
+							<p> Logo de Upse</p>
 							<img src="img/upse.jpg" alt="Upse Panoramica">
+							<p> Upse Panoramica </p>
 							<img src="img/principal.jpg" alt="Upse">
+							<p> Principal </p>
 						</li>
 					</ul>
 				 </section>
+
 				<footer>
 					<a href= "https://facebook.com/">
 					<img src="img/facebook-1.jpg" alt="facebook logo">
