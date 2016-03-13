@@ -44,19 +44,30 @@ h1{
 	margin: 15px 0;
 	font-size: 2.5em;
 	font-weight: normal;
-	line-height: 2.5em;
+	line-height: 1.5em;
 }
 
 
 
 /*navigation*/
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
 nav ul{
 	list-style: none;
 	margin: 0 10px;
 	padding: 0;
 }
+
+nav li{
+	display: inline-block;
+}
+
 nav{
-	background: #a967d5;
+	background: #147896;
 }
 
 nav a, nav a:visited {
@@ -64,7 +75,7 @@ nav a, nav a:visited {
 }
 
 nav a.selected {
-	color: #478526;
+	color: #a78469;
 }
 
 nav a:hover{
@@ -72,9 +83,9 @@ nav a:hover{
 	}
 
 #galeria{
-margin: 0;
-padding: 0;
-list-style: none;
+	margin: 0;
+	padding: 0;	
+	list-style: none;
 }
 	
 #galeria li{
