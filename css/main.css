@@ -2,14 +2,14 @@
 /*general*/
 a {
 	text-decoration: none;
-	color: #b21818;
+	/*color: #b21818;*/
 
 }
 
 #wrapper{
 	max-width: 1300px;
 	margin: 0 auto;
-	padding:5%;
+	padding:  0 25%;
 	background: #ffd3d3;
 }
 
@@ -18,16 +18,18 @@ a {
 
 }
 
-img{ max-width: 80%;}
+img{ max-width: 100%;}
 
 
 
 /*heading */
 header{
-	float: right;
+	float: left;
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
+	background: #179269;
+	border-color: #354869;
 }
 
 header{
@@ -40,11 +42,13 @@ h1, h2{
 }
 
 h1{
-	font-family: 'Josefin Slab', sans-serif;
+	
+	font-family: 'Pacifico', cursive;
+	/*font-family: 'Josefin Slab', sans-serif;*/
 	margin: 15px 0;
-	font-size: 2.5em;
+	font-size: 1.75em;
 	font-weight: normal;
-	line-height: 1.5em;
+	line-height: 1.8em;
 }
 
 
@@ -59,7 +63,8 @@ nav a{
 nav ul{
 	list-style: none;
 	margin: 0 10px;
-	padding: 0;
+	text-align: center;
+	/*padding: 0;*/
 }
 
 nav li{
@@ -91,7 +96,7 @@ nav a:hover{
 	
 #galeria li{
 	float: left;
-	width: 45%;
+	width: 40%;
 	margin: 2.5%;
 	background-color: #fff1e6;
 	color: #359741;
@@ -108,7 +113,7 @@ nav a:hover{
 /*footer*/
 
 footer{
-
+	/*background-color: black;*/
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
@@ -127,9 +132,9 @@ footer{
 /* estilos para acerca de */
 .profile-photo{
 	display: block;
-	max-width: 1000px;
-	margin: 0 auto 30px;
-	border-radius: 100%;
+	max-width: 700px;
+	margin: 0 auto 100px;
+	border-radius: 80%;
 }
 
 .contact-info{
