@@ -8,7 +8,7 @@
 		width: 50%;
 		float: left;
 	}
-
+          
 	#secondary{
 		width: 40%;
 		float: right;
@@ -46,7 +46,9 @@
 	text-align: right;
 	width: 45%;
 	}
-	#logo{
+
+
+#logo{
 		float: left;
 		margin-left: 5%;
 		text-align: left;
@@ -60,9 +62,10 @@
 		margin-bottom: 20px;
 	}
 	header {
-		border-bottom: 5px solid #599a68;
+		border-bottom: 5px solid #147852;
 		margin-bottom: 60px
 	}
+	
 
 }
 
