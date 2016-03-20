@@ -46,6 +46,24 @@
 	text-align: right;
 	width: 45%;
 	}
+	#logo{
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%
+		}
+	h1{
+		font-size: 1.5em;
+	}
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px
+	}
 
 }
+
 
