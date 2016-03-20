@@ -7,7 +7,7 @@ a {
 }
 
 #wrapper{
-	max-width: 1300px;
+	max-width: 200px;
 	margin: 0 auto;
 	padding:  0 25%;
 	background: #ffd3d3;
@@ -96,7 +96,7 @@ nav a:hover{
 	
 #galeria li{
 	float: left;
-	width: 40%;
+	width: 80%;
 	margin: 2.5%;
 	background-color: #fff1e6;
 	color: #359741;
