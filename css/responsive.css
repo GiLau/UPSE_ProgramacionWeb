@@ -3,6 +3,33 @@
 	body{
 	background: navy;
 	}
+
+	#primary{
+		width: 50%;
+		float: left;
+	}
+
+	#secondary{
+		width: 40%;
+		float: right;
+	}
+
+
+	#galeria li{
+		width: 28.3333%;
+	}
+
+	#galeria li:nth-child(3n+1){
+		clear: left;
+	}
+
+/*ESTILOS PARA LA PAGINA ABOUT*/
+.profile-photo{
+
+	float: left;
+	margin: 0 5% 40px 0;
+	}
+
 }
 
 @media screen and (min-width: 660px)
@@ -10,4 +37,15 @@
 	body{
 	background: darkgreen;
 	}
+
+	nav {
+	background: none;
+	float:right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+	}
+
 }
+
