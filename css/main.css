@@ -171,4 +171,39 @@ footer{
 
 }
 
-/*seccion de servicios*/
+/***** overlay con jquery*/
+#overlay{
+	background: rgba(0,0,0,0.7);/*ultimo valor es opacity*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: none; /*para que no se muestre al comienzo*/
+
+}
+
+#overlay img {
+	margin-top: 10%;
+}
+
+#overlay p {
+	color: white;
+}
+/* menu parab moviles en jquery*/
+/*basado en dimensiones de iphone 5*/
+
+@media (min-width: 320px) and (max-width: 568px)
+{
+	#menu ul {
+		display: none;
+	}
+}
+
+@media (min-width: 568Px) 
+{
+	#menu select, #menu button {
+		display: none;
+	}
+}
