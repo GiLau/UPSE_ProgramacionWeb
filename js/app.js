@@ -80,8 +80,8 @@ $select.change(function(){
 	window.location = $select.val(); //toma el valor de opcion seleccionada
 });
 
-var $PassWord = $("#PassWord");
-var $confirmPassWord = $("#confirmPassWord");
+/*var $PassWord = $("#password");
+var $confirmPassWord = $("#confirm_password");
 $("form span").hide();
 function eventoPassword(){
 	//validar si la clave es valida
@@ -103,7 +103,40 @@ function confirmarPassword(){
 		else{
 			$confirmPassWord.next().show();
 		}
+}*/
+var $PassWord = $("#password");
+var $confirmPassWord = $("#confirm_password");
+$("form span").hide();
+function eventoPassword(){
+	//validar si la clave es valida
+	if (esPasswordValido()){
+		//esconder ayuda si clave e valida
+		$PassWord.next().hide();
+
+	}
+	else {
+		//caso contrario mostramos ayuda
+		$PassWord.next().show();
+
+	}
+}
+function usuarioIngresado(){
+	return ($("#username").val().length>0);
+		}
+
+function validacionCompleta(){
+	return esPasswordValido() && coincidenPassword() && usuarioIngresado();
+}
+function confirmarPassword(){
+	if($PassWord.val() === $confirmPassWord.val()){
+		$confirmPassWord.next().hide();
+		}
+		else{
+			$confirmPassWord.next().show();
+		}
+}
+function puedeEnviar(){
+	$("#submit").prop("disabled", !validacionCompleta());
 }
 
-$PassWord.focus(eventoPassword).keyup(eventoPassword);
-$confirmPassWord.focus(confirmarPassword).keyup(confirmarPassword);
+$PassWord.focus(eventoPassword).keyup(eventoPassword).focus(confirmarPassword);
