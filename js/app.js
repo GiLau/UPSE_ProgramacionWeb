@@ -77,5 +77,33 @@ $button.click(function(){
 });*/
 
 $select.change(function(){
-	window.location =$select.val(); //toma el valor de opcion seleccionada
+	window.location = $select.val(); //toma el valor de opcion seleccionada
 });
+
+var $PassWord = $("#PassWord");
+var $confirmPassWord = $("#confirmPassWord");
+$("form span").hide();
+function eventoPassword(){
+	//validar si la clave es valida
+	if ($PassWord.val().length>8){
+		//esconder ayuda si clave e valida
+		$PassWord.next().hide();
+
+	}
+	else {
+		//caso contrario mostramos ayuda
+		$PassWord.next().show();
+
+	}
+}
+function confirmarPassword(){
+	if($PassWord.val() === $confirmPassWord.val()){
+		$confirmPassWord.next().hide();
+		}
+		else{
+			$confirmPassWord.next().show();
+		}
+}
+
+$PassWord.focus(eventoPassword).keyup(eventoPassword);
+$confirmPassWord.focus(confirmarPassword).keyup(confirmarPassword);
